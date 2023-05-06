@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Explain component hierarchy in React",
+        "answer": "Componnet hierachy in React refers to the structure of parent and child components that make up a react application. Parent components can pass data to child components through props, and chld components can communicate with their parents through callbacks or context. Component hierarchy helps organize code and enables the composition of reusable components to build complex UIs"
+    },
+    {
+        "question": "How do you create a form in React?",
+        "answer": 
+            [
+                "Creating a controlled component with state for each input field",
+                "Adding event handlers to handle input changes and form submissions.",
+                "Binding input values to component state and updating state on input changes."
+            ]
+    },
+    {
+        "question": "How do you make an API call in React?",
+        "answer": 
+            [
+                "Use the useEffect hook to fetch data",
+                "Use a library like Axios or Fetch for making the API call",
+                "Update the component state with the fetched data and handle loading and error states"
+            ]     
+    },
+    {
+        "question": "What are components? How are class-based components and functional components different?",
+        "answer": 
+            [
+                "Components are reusuable building blocks of a React application.",
+                "Class-based components are created using ES6 classes, include lifecycle methods and manage state using this.state and this.setState.",
+                "Functional components are created with a function, state managed using hooks and generally more consise and easier to test"
+            ]
+    },
+    {
+        "question": "What are context providers in React?",
+        "answer": "Components that use the Context API to share data across the component tree without the need for prop drilling. A context provider wraps child components, making the shared data available to any descendant component that consumes the context"
+    },
+    {
+        "question": "What are props in React",
+        "answer": "props are like variables you give to components to make them flexible and reusable"
+    },
+    {
+        "question": "How do props differ from state?",
+        "answer": "props are inputs passed to components from outside, while state is internal data managed and updated by the component itself"
+    },
+    {
+        "question": "What does the useContext hook do?",
+        "answer": "useContext lets you access the value of a specific React context, making it easier to share data across multiple components without prop drilling"
+    },
+    {
+        "question": "What does the useEffect hook do?",
+        "answer" : "Allows you to perform side effects, such as fetching data or updating the DOM in response to component render or state changes."
+    },
+    {
+        "question": "What does the useMemo hook do?",
+        "answer": "Caches a value to avoid recomputing it, and only updates when dependencies change"
+    },
+    {
+        "question": "What does the useState hook do?",
+        "answer": "manages local state in a functional component, allowing you to store, update and track values over time"
+    },
+    {
+        "question": "What is a hook?",
+        "answer": "A special function that allows you to use state and lifecycle features in functional components"
+    },
+    {
+        "question": "What is JSX?",
+        "answer": "A way to write HTML-like code in JavaScript, used in React for building UI components"
+    },
+    {
+        "question": "What is memoization?",
+        "answer": "A technique that caches function results to speed up future calls with the same inputs"
+    },
+    {
+        "question": "What is React-Router-Dom?",
+        "answer": "A library for handling navigation in React apps, allowing components to change based on the url"
+    },
+    {
+        "question": "how does routing work in React?",
+        "answer": "Routing connects URLs to components showing the right content based on the web address, without reloading the page"
+    },
+    {
+       "question": "What is React?",
+       "answer": "A JavaScript library for building user interfacces" 
+    },
+    {
+        "question": "What are the advantages of using React in a project?",
+        "answer": [
+            "Component-based: promotes code reusability and maintainability",
+            "Fast rendering: Virtual DOM improves performance",
+            "One-way databinding: simplifies data flow and debugging.",
+            "Strong ecosystem: many libraries and tools available"
+        ]
+    },
+    {
+        "question": "What is Redux?",
+        "answer": "A tool for managing app-wide data in a centralized way, often used with React to simplify state handling"
+    },
+    {
+        "question": " What is state?",
+        "answer": "State represents the data that components need to display or manipulate"
+    },
+    {
+        "question": "What impact does state have on component lifecycle?",
+        "answer": ""
+    }
+]
+
